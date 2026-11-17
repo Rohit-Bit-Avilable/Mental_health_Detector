@@ -326,7 +326,7 @@ input[type=range]:focus-visible::-moz-range-thumb{box-shadow:0 0 0 5px #D9D3FF}
 
 <script>
 // Same origin when served by FastAPI; falls back to localhost if this file is opened directly.
-const API = location.protocol === "file:" ? "http://127.0.0.1:8000" : "";
+const API = location.protocol === "file:" ? "https://mental-health-detector-4-dw2t.onrender.com" : "";
 const $ = id => document.getElementById(id);
 const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
